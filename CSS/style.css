@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color:#303030;
+    width: 100%;
+    height: 475px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#titulo-principal {
+    width: 1024px;
+    height: 72px;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 62px;
+}
+
+#sub-titulo {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 2px;
+    margin-left: 62px;
+    margin-top: 30px;
+}
+
+#container-topo {
+    width: 100%;
+    height: 229px;
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#container-topo h3 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#container-topo p {
+    font-size: 20px;
+}
+
+#container-principal {
+    width: 100%;
+    height: 774px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#container-principal-textos {
+    width: 735px;
+    height: 161px;
+    margin-left: 77px;
+}
+
+#container-principal h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#container-principal p {
+    font-size: 25px;
+}
+
+#container-principal-imagem img{
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+#container-principal-imagem img:hover {
+    border: 3px solid #303030;
+}
+
+footer{
+    width: 100%;
+    height: 638px;
+    background-color: #303030;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2 {
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: #fff;
+}
+
+footer form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer form input[type="text"], footer form input[type="email"] {
+    width: 493px;
+    height: 57px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+::placeholder {
+    font-size: 20px;
+}
+
+footer form input[type="submit"] {
+    margin-top: 80px;
+    width: 286px;
+    height: 74px;
+    background-color: #C07212;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer form  input[type="submit"]:hover {
+    background-color: #e69738
+}
